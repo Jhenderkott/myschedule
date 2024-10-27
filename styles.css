@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(103, 236, 114);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(123, 74, 179);
+
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+table {
+    width: 100%;
+
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+}
+
+tr:nth-child(even) {
+    background-color: cornsilk;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(139, 233, 233);
+}
+
+th {
+    height: 30px;
+    background-color: cornsilk;
+}
+
+td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 15px;
+}
